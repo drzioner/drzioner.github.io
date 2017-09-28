@@ -50,6 +50,9 @@ body{
   padding: 0;
   padding-top: 2em;
 }
+.yo a{
+  color: #f1b604;
+}
 .mio{
   display: flex;
   width: 20%;
