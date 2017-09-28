@@ -4,7 +4,8 @@ font-family: 'Lobster', cursive;
 font-family: 'Roboto Mono', monospace;
 */
 body{
-  background: url('../images/deinervega.jpg') no-repeat;
+  background: url('../images/deinervega.jpg') no-repeat fixed;
+  background-position: center center;
   background-size: cover;
   display: flex;
   height: 100%;
@@ -27,12 +28,15 @@ body{
 .yo{
   align-content: center;
   align-items: center;
+  display: flex;
+  flex-flow: column;
   justify-content: left;
+  margin: 0;
   padding: 0 10%;
   width: 60%;
 }
 .yo h1{
-  color: #00e5ff;
+  color: #f1b604;
   font-family: 'Lobster', cursive;
   font-size: 3.6em;
   margin: 0;
@@ -60,20 +64,103 @@ body{
   width: 100%;
 }
 .menu li{
+  border: 0;
   margin: 0;
   margin-bottom: 1em;
+  padding:0;
+  padding-bottom: 1em;
   text-align:  right;
 }
 .menu a{
+  border-bottom: 2px solid #fafafa;
   color: #fafafa;
   font-family: 'Roboto Mono', monospace;
   justify-content: right;
-  margin-right: 0;
-  padding: 1em 0;
+  padding-right: 0em;
   text-align:  right;
-  text-decoration: underline;
+  text-decoration: none;
   transition: 0.8s all;
 }
 .menu a:hover{
-  margin-right: 1.5em;
+  padding-right: 1.5em;
 }
+
+/*//////////// INICIO MEDIAS QUERIES ////////////*/
+@media screen and (max-width:780px) {}
+@media screen and (max-width:600px) {}
+@media screen and (max-width:599px) {
+  body{
+    background: url('../images/deinervega.jpg') no-repeat fixed;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+  }
+  .main{
+    align-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(10,10,10,1) 1%, rgba(0,77,64,0.8) 30%, rgba(0,105,92,0.7) 45%, rgba(0,105,92,0.7) 55%, rgba(0,77,64,0.8) 70%, rgba(10,10,10,1) 99%);
+    display: flex;
+    height: 100%;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+  }
+  .yo{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    margin: 5em 0 0 0;
+    padding: 0 10%;
+    width: 60%;
+  }
+  .yo h1{
+    color: #f1b604;
+    font-family: 'Lobster', cursive;
+    font-size: 2.2em;
+    margin: 0;
+    padding: 0;
+  }
+  .yo p{
+    color: #fafafa;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    padding-top: 2em;
+  }
+  .mio{
+    display: flex;
+    width: 20%;
+  }
+  .menu{
+    align-content: center;
+    align-items: center;
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 2em 5%;
+    width: 90%;
+  }
+  .menu li{
+    border: 0;
+    margin: 0 0.5em;
+    padding:0;
+  }
+  .menu a{
+    border-bottom: 2px solid #fafafa;
+    color: #fafafa;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+  }
+}
+/*//////////// FIN MEDIAS QUERIES ////////////*/
