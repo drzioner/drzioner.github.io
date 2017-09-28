@@ -53,9 +53,11 @@ body{
   width: 15%;
 }
 .menu{
-  text-align: right;
+  align-items: baseline;
+  display: flex;  
   padding: 0;
   padding-right: 2em;
+  text-align: right;
 }
 .menu{
   list-style: none;
