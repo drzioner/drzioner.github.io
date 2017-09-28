@@ -2,6 +2,8 @@ body{
   background: url('../images/deinervega.jpg') no-repeat fixed center;
   background-size: cover;
   height: 100%;
+  margin: 0;
+  padding: 0;
   position: fixed;
   width: 100%;
 }
@@ -13,6 +15,7 @@ body{
   height: 100%;
   flex-flow: row;
   justify-content: center;
+  padding: 10% 0;
   width: 100%;
 }
 .yo{
