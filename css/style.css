@@ -44,6 +44,7 @@ body{
   font-size: 1.2em;
   margin: 0;
   padding: 0;
+  padding-top: 2em;
 }
 .mio{
   display: flex;
@@ -59,9 +60,6 @@ body{
   padding: 0 3em;
 }
 .menu li{
-  align-content: center;
-  align-items: baseline;
-  justify-content: flex-end;
 }
 .menu a{
   color: #fafafa;
