@@ -51,7 +51,7 @@ body{
   width: 20%;
 }
 .menu{
-  align-content: center;
+  align-content: flex-end;
   align-items: baseline;
   display: flex;
   flex-flow: column;
@@ -60,7 +60,7 @@ body{
   padding: 0 3em;
 }
 .menu li{
-  align-content: center;
+  align-content: flex-end;
   align-items: baseline;
   justify-content: flex-end;
   text-align:  right;
