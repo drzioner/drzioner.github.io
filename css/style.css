@@ -47,7 +47,10 @@ body{
   padding-top: 2em;
 }
 .mio{
+  align-content: flex-end;
+  align-items: baseline;
   display: flex;
+  text-align:  right;
   width: 20%;
 }
 .menu{
