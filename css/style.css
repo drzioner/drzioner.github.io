@@ -59,13 +59,13 @@ body{
   text-align:  right;
 }
 .menu li{
+  margin: 2em 0;
   text-align:  right;
 }
 .menu a{
   color: #fafafa;
   font-family: 'Roboto Mono', monospace;
   justify-content: right;
-  margin: 1em 0;
   padding: 1em 0;
   text-align:  right;
   text-decoration: underline;
