@@ -55,6 +55,6 @@ body{
 }
 .menu a{
   color: #fafafa;
-  font-family: 'Asap Condensed', sans-serif;
-  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: underline;
 }
