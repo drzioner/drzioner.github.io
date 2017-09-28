@@ -6,7 +6,7 @@ body{
 .main{
   align-content: center;
   align-items: center;
-  background: url('../images/deinervega.jpg');
+  background: url('../images/deinervega.jpg') no-repeat;
   background-size: cover;
   display: flex;
   height: 100%;
