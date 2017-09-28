@@ -58,7 +58,7 @@ body{
   align-items: baseline;
   display: flex;
   flex-flow: column;
-  justify-content: flex-end;
+  justify-content: right;
   list-style: none;
   padding: 0 3em;
   text-align:  right;
@@ -66,11 +66,13 @@ body{
 .menu li{
   align-content: flex-end;
   align-items: baseline;
-  justify-content: flex-end;
+  justify-content: right;
   text-align:  right;
 }
 .menu a{
   color: #fafafa;
   font-family: 'Roboto Mono', monospace;
+  justify-content: right;
+  text-align:  right;
   text-decoration: underline;
 }
