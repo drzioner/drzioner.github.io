@@ -119,19 +119,19 @@ body{
     justify-content: left;
     margin: 5em 0 0 0;
     padding: 0 10%;
-    width: 60%;
+    width: 80%;
   }
   .yo h1{
     color: #f1b604;
     font-family: 'Lobster', cursive;
-    font-size: 2.2em;
+    font-size: 2em;
     margin: 0;
     padding: 0;
   }
   .yo p{
     color: #fafafa;
     font-family: 'Roboto Mono', monospace;
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 0;
     padding: 0;
     padding-top: 2em;
