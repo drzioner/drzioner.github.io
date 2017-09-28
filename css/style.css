@@ -1,3 +1,8 @@
+/*
+font-family: 'Asap Condensed', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Roboto Mono', monospace;
+*/
 body{
   background: url('../images/deinervega.jpg') no-repeat fixed center;
   background-size: cover;
@@ -16,22 +21,24 @@ body{
   height: 100%;
   flex-flow: row;
   justify-content: center;
-  padding: 10% 0;
+  padding: 5% 0;
   width: 100%;
 }
 .yo{
   align-content: center;
   align-items: center;
   justify-content: left;
-  padding: 0 0 0 5em;
+  padding: 0 0 0 7em;
   width: 70%;
 }
 .yo h1{
   color: #00e5ff;
+  font-family: 'Lobster', cursive;
   font-size: 2.2em;
 }
 .yo p{
   color: #fafafa;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.2em;
 }
 .mio{
@@ -41,12 +48,13 @@ body{
   width: 30%;
 }
 .menu{
-  justify-content: flex-end;
+  justify-content: right;
 }
 .menu{
   list-style: none;
 }
 .menu a{
   color: #fafafa;
+  font-family: 'Asap Condensed', sans-serif;
   text-decoration: none;
 }
