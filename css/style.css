@@ -50,16 +50,20 @@ body{
   width: 15%;
 }
 .menu{
+  align-content: flex-end;
+  align-items: baseline;
   display: flex;
   flex-flow: column;
   list-style: none;
   padding: 0;
   padding-right: 2em;
-  text-align: right;
+}
+.menu li{
+  align-items: baseline;
 }
 .menu a{
-  align-items: baseline;
   color: #fafafa;
   font-family: 'Roboto Mono', monospace;
+  text-align: right;
   text-decoration: underline;
 }
