@@ -20,7 +20,7 @@ body{
   display: inline-flex;
   height: 100%;
   flex-flow: row;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0;
   width: 100%;
 }
