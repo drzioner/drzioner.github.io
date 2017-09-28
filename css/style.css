@@ -36,18 +36,18 @@ body{
   font-family: 'Lobster', cursive;
   font-size: 3.4em;
   margin: 0;
-  padding: 0 0 0 3em;
+  padding: 0;
 }
 .yo p{
   color: #fafafa;
   font-family: 'Roboto Mono', monospace;
   font-size: 1.2em;
   margin: 0;
-  padding: 0 0 0 4em;
+  padding: 0;
 }
 .mio{
   align-content: center;
-  align-items: center;
+  align-items: baseline;
   display: flex;
   justify-content: flex-end;
   width: 15%;
