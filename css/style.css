@@ -34,7 +34,7 @@ body{
 .yo h1{
   color: #00e5ff;
   font-family: 'Lobster', cursive;
-  font-size: 2.4em;
+  font-size: 3.4em;
 }
 .yo p{
   color: #fafafa;
@@ -45,6 +45,7 @@ body{
   align-content: center;
   align-items: center;
   display: flex;
+  justify-content: flex-end;
   width: 30%;
 }
 .menu{
