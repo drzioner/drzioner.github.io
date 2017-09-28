@@ -47,14 +47,10 @@ body{
   padding-top: 2em;
 }
 .mio{
-  align-items: center;
-  align-content: center;
   display: flex;
   width: 20%;
 }
 .menu{
-  align-items: center;
-  align-content: center;
   display: flex;
   flex-flow: column;
   list-style: none;
