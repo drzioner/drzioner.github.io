@@ -4,7 +4,7 @@ font-family: 'Lobster', cursive;
 font-family: 'Roboto Mono', monospace;
 */
 body{
-  background: url('../images/deinervega.jpg') no-repeat fixed center;
+  background: url('../images/deinervega.jpg') no-repeat center;
   background-size: cover;
   display: flex;
   height: 100%;
