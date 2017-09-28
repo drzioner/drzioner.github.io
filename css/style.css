@@ -46,23 +46,19 @@ body{
   padding: 0;
 }
 .mio{
-  align-content: center;
-  align-items: baseline;
   display: flex;
   width: 15%;
 }
 .menu{
-  align-items: baseline;
   display: flex;
   flex-flow: column;
+  list-style: none;
   padding: 0;
   padding-right: 2em;
   text-align: right;
 }
-.menu{
-  list-style: none;
-}
 .menu a{
+  align-items: baseline;
   color: #fafafa;
   font-family: 'Roboto Mono', monospace;
   text-decoration: underline;
