@@ -12,7 +12,7 @@ body{
   align-content: center;
   align-items: center;
   background: linear-gradient(90deg, rgba(10,10,10,1) 10%, rgba(0,77,64,0.9) 30%, rgba(0,105,92,0.7) 45%, rgba(0,105,92,0.7) 55%, rgba(0,77,64,0.9) 70%, rgba(10,10,10,1) 90%);
-  display: flex;
+  display: inline-flex;
   height: 100%;
   flex-flow: row;
   justify-content: center;
@@ -23,12 +23,24 @@ body{
   align-content: center;
   align-items: center;
   justify-content: left;
+  padding: 0 0 0 5em;
   width: 70%;
+}
+.yo h1{
+  color: #00e5ff;
+  font-size: 2.2em;
+}
+.yo p{
+  color: #fafafa;
+  font-size: 1.2em;
 }
 .mio{
   align-content: center;
   align-items: center;
+  display: flex;
   width: 30%;
+}
+.menu{
   justify-content: flex-end;
 }
 .menu{
