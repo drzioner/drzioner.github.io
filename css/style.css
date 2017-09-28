@@ -52,6 +52,7 @@ body{
   width: 20%;
 }
 .menu{
+  align-items: baseline;
   display: flex;
   flex-flow: column;
   height: 100%;
@@ -59,12 +60,9 @@ body{
   padding: 0 3em 0 0;
 }
 .menu li{
-  align-content: flex-end;
-  align-items: baseline;
-  justify-content: right;
-  text-align:  right;
 }
 .menu a{
+  align-items: baseline;
   color: #fafafa;
   font-family: 'Roboto Mono', monospace;
   justify-content: right;
