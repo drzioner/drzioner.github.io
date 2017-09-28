@@ -71,8 +71,9 @@ body{
   padding: 1em 0;
   text-align:  right;
   text-decoration: underline;
+  transform: translate(0px, 0px);
   transition: 0.9s all;
 }
 .menu a:hover{
-  transform: translate(-20px, 0);
+  transform: translate(-20px, 0px);
 }
