@@ -155,5 +155,8 @@ body{
     font-family: 'Roboto Mono', monospace;
     text-decoration: none;
   }
+  .menu a:hover{
+    padding-right: 0em;
+  }
 }
 /*//////////// FIN MEDIAS QUERIES ////////////*/
