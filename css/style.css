@@ -93,7 +93,7 @@ body{
 @media screen and (max-width:600px) {}
 @media screen and (max-width:599px) {
   body{
-    background: url('../images/deinervega.jpg') no-repeat fixed;
+    background: url('../images/deinervega1.jpg') no-repeat fixed;
     background-position: center center;
     background-size: cover;
     display: flex;
@@ -106,7 +106,7 @@ body{
   .main{
     align-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(10,10,10,1) 1%, rgba(0,77,64,0.8) 30%, rgba(0,105,92,0.7) 45%, rgba(0,105,92,0.7) 55%, rgba(0,77,64,0.8) 70%, rgba(10,10,10,1) 99%);
+    background: linear-gradient(90deg, rgba(10,10,10,0) 1%, rgba(0,77,64,0) 30%, rgba(0,229,255,0.5) 45%, rgba(0,229,255,0.5) 55%, rgba(0,77,64,0) 70%, rgba(10,10,10,0) 99%);
     display: flex;
     height: 100%;
     flex-flow: column;
