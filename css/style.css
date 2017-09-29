@@ -106,7 +106,7 @@ body{
   .main{
     align-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(10,10,10,0) 1%, rgba(0,77,64,0) 30%, rgba(0,229,255,0.5) 45%, rgba(0,229,255,0.5) 55%, rgba(0,77,64,0) 70%, rgba(10,10,10,0) 99%);
+    background: linear-gradient(90deg, rgba(1,87,155,1) 1%, rgba(3,169,244,0.8) 30%, rgba(0,229,255,0.5) 45%, rgba(0,229,255,0.5) 55%, rgba(3,169,244,0.8) 70%, rgba(1,87,155,1) 99%);
     display: flex;
     height: 100%;
     flex-flow: column;
