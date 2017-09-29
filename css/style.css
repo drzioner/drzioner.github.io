@@ -80,7 +80,7 @@ body{
   color: #fafafa;
   font-family: 'Roboto Mono', monospace;
   justify-content: right;
-  padding-right: 0em;
+  padding-right: 0.5em;
   text-align:  right;
   text-decoration: none;
   transition: 0.8s all;
