@@ -78,6 +78,7 @@ body{
 .menu a{
   border-bottom: 2px solid #fafafa;
   color: #fafafa;
+  cursor: pointer;
   font-family: 'Roboto Mono', monospace;
   justify-content: right;
   padding-right: 0.5em;
@@ -88,7 +89,10 @@ body{
 .menu a:hover{
   padding-right: 1.5em;
 }
-
+#no{
+  cursor: default;
+  text-decoration: line-through;
+}
 /*//////////// INICIO MEDIAS QUERIES ////////////*/
 @media screen and (max-width:780px) {}
 @media screen and (max-width:600px) {}
