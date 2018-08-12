@@ -2,6 +2,7 @@
 font-family: 'Asap Condensed', sans-serif;
 font-family: 'Lobster', cursive;
 font-family: 'Roboto Mono', monospace;
+font-family: 'Fira Code';
 */
 body{
   background: url('../images/deinervega1.jpg') no-repeat fixed;
@@ -45,7 +46,7 @@ body{
 }
 .yo p{
   color: #fafafa;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Fira Code', monospace;
   font-size: 1.2em;
   margin: 0;
   padding: 0;
@@ -79,7 +80,7 @@ body{
   border-bottom: 2px solid #fafafa;
   color: #fafafa;
   cursor: pointer;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Fira Code', monospace;
   justify-content: right;
   padding-right: 0.5em;
   text-align:  right;
@@ -127,7 +128,7 @@ body{
   }
   .yo p{
     color: #fafafa;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Fira Code', monospace;
     font-size: 1em;
     margin: 0;
     padding: 0;
@@ -156,7 +157,7 @@ body{
   .menu a{
     border-bottom: 2px solid #fafafa;
     color: #fafafa;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Fira Code', monospace;
     text-decoration: none;
   }
   .menu a:hover{
